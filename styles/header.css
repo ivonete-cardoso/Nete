@@ -7,6 +7,13 @@
     background-position: center;
 }
 
+.lista-menu {
+    display: none;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
 .cabecalho {
     background-color: var(--branco);
     display: flex;
